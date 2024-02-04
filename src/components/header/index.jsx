@@ -7,10 +7,17 @@ export default function HeaderBox(){
 
    useEffect(() => {
         const intervalo = setInterval(() => {
-            setSegundos(new Date().getSeconds())
+        const segundoAtual = (new Date().getSeconds())
+        let segundoAlterado = segundoAtual < 10 ? '0' + segundoAtual : segundoAtual; 
+         
+
+         setSegundos(segundoAlterado)
         }, 1000);
 
+        
+
         return () => clearInterval(intervalo)
+            
    }, []);
 
    const horas = () =>{
@@ -21,10 +28,41 @@ export default function HeaderBox(){
    }
 
    const minutos = () => {
-    let dados = new Date()
-    let minutoDados = dados.getMinutes()
+        let dados = new Date()
+        let minutoDados = dados.getMinutes()
 
-    return minutoDados
+        if (minutoDados < 10) {
+            minutoDados =  '0'+ minutoDados
+        }
+        return minutoDados
+   }
+
+   const semanas = () => {
+        let dados = new Date()
+        let semanaNmero = dados.getDay()
+        
+
+        const semanaLista = ['Domingo', 'Segunda', 'Terça',
+                        'Quarta', 'Quinta', 'Sexta']
+        
+        return semanaLista[semanaNmero]        
+   }
+
+   const mesAno = () => {
+        let dados = new Date()
+        let mesNumero = dados.getMonth()
+
+        const meses = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai',
+                     'Jun', 'Jul', 'Ago', 'Set', 'Out','Nov', 'Dez']
+
+        return meses[mesNumero]
+   }
+
+   const diaHoje = () => {
+        let dados = new Date()
+        let dia = dados.getDate()
+
+        return dia
    }
 
     return(
@@ -34,9 +72,15 @@ export default function HeaderBox(){
             </div>
             <div>
                 <span>
-                    {horas()}:
-                    {minutos()}
+                    <span>{horas()}:
+                    {minutos()}:
                     {segundos}
+                </span>
+                <span>
+                    {semanas()},
+                    {mesAno()}
+                    {diaHoje()}
+                </span>
                 </span>
             </div>
        </header>
