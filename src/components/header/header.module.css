@@ -1,0 +1,9 @@
+.headerBox{
+     display: flex;
+     justify-content: space-between;
+}
+
+.headerBox div{
+    font-size: 30px;
+}
+

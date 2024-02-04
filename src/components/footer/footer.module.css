@@ -1,0 +1,10 @@
+.footerBox div {
+    width: 130px;
+    height: 130px;
+    border: 1px solid red;
+}
+
+.footerBox{
+    display: flex;
+    gap: 1px;
+}
