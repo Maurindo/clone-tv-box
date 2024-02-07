@@ -3,3 +3,14 @@
     height: 300px;
     border: 1px solid red;
 }
+
+.bodyDois{
+    background-image: url('../imagens-tv-box/balao.jpg');
+    background-size: 595px;
+}
+
+.bodyDois h1{
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
