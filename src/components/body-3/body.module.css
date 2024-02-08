@@ -5,3 +5,15 @@
 
 }
 
+.bodyTres{
+    background-image: url('../imagens-tv-box/loMusica2.webp');
+    background-size:119%;
+}
+
+.bodyTres h1{
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+

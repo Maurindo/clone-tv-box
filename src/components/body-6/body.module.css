@@ -4,3 +4,14 @@
     border: 1px solid orange;
 }
 
+.bodySeis {
+    background-image: url('../imagens-tv-box/engrenagem-2.png');
+    background-size: 250%;
+}
+
+.bodySeis h1 {
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+

@@ -2,6 +2,7 @@
     width: auto;
     height: 615px;
     border: 1px solid black;
+    border-radius: 5%;
 }
  .bodyUm {
     background-image: url('../imagens-tv-box/homemDeFerro.jpg');
