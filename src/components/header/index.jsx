@@ -71,17 +71,17 @@ export default function HeaderBox(){
                 wi-fi
             </div>
             <div>
-                <span>
-                    <span>{horas()}:
+                <span className={styles.spanUm}>
+                    {horas()}:
                     {minutos()}:
                     {segundos}
                 </span>
-                <span>
+                <span className={styles.spanDois}>
                     {semanas()},
                     {mesAno()}
                     {diaHoje()}
                 </span>
-                </span>
+                
             </div>
        </header>
     );
