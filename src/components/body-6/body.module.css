@@ -1,7 +1,8 @@
 .bodySeis{
     width: auto;
     height: 300px;
-    border: 1px solid orange;
+    border: 1px solid white;
+    border-radius: 25px;
 }
 
 .bodySeis {
@@ -12,6 +13,7 @@
 .bodySeis h1 {
     color: white;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 
