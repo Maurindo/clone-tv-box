@@ -46,7 +46,7 @@
 
 .bodyMother{
     grid-template-columns: 200px 150px 150px 180px 100px 150px 50px 200px;
-    grid-template-rows:50px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows:80px 100px 100px 100px 100px 100px 100px 100px;
     grid-template-areas: 
         "dados    dados    dados  dados  dados  dados  dados   dados  "
         "maurindo maurindo elaine elaine elaine elaine anthony anthony"

@@ -72,9 +72,11 @@ export default function HeaderBox(){
             </div>
             <div>
                 <span className={styles.spanUm}>
-                    {horas()}:
-                    {minutos()}:
-                    {segundos}
+                    <b>
+                         {horas()}:
+                         {minutos()}:
+                         {segundos}
+                    </b>
                 </span>
                 <span className={styles.spanDois}>
                     {semanas()},

@@ -3,6 +3,7 @@
      justify-content: space-between;
      color: white;
      
+     
 }
 
 .headerBox div{
@@ -11,6 +12,7 @@
 
 .spanUm{
     padding-right: 15px;
+    font-size: 40px;
 }
 
 .spanDois{
@@ -18,8 +20,8 @@
 }
 
 .headerBox div > i{
-    
-    font-size: 50px;
+    width: 100px;
+    font-size: 70px;
     
 }
 
