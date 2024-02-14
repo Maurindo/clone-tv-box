@@ -1,6 +1,8 @@
 .headerBox{
      display: flex;
      justify-content: space-between;
+     color: white;
+     
 }
 
 .headerBox div{
@@ -13,5 +15,11 @@
 
 .spanDois{
     font-size: 25px
+}
+
+.headerBox div > i{
+    
+    font-size: 50px;
+    
 }
 

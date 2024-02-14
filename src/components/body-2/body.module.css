@@ -16,3 +16,8 @@
     padding-left: 15px;
     padding-top: 15px;
 }
+
+.bodyDois:hover{
+    cursor: pointer;
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}

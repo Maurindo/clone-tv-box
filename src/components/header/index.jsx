@@ -68,7 +68,7 @@ export default function HeaderBox(){
     return(
        <header className={styles.headerBox}>
             <div>
-                wi-fi
+               <i class='bx bx-wifi'></i>
             </div>
             <div>
                 <span className={styles.spanUm}>
