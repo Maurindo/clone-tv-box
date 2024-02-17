@@ -8,8 +8,10 @@ import HeaderBox from '../header'
 import FooterBox from '../footer'
 import styles from './bodyMother.module.css'
 
+
 function bodyMother() {
     return(
+    
     <main className={styles.bodyMother}>
         <div className={styles.headerBox}>
             <HeaderBox /> 

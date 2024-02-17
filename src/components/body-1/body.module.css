@@ -19,6 +19,7 @@
 .bodyUm:hover{
     cursor: pointer;
     transform: perspective(1px) scale3d(1.05, 1.05, 1.05) translateZ(0) !important;
+    border: 3px solid white;
 
 }
 

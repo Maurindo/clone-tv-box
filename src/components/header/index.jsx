@@ -43,7 +43,7 @@ export default function HeaderBox(){
         
 
         const semanaLista = ['Domingo', 'Segunda', 'Terça',
-                        'Quarta', 'Quinta', 'Sexta']
+                        'Quarta', 'Quinta', 'Sexta', 'Sabado']
         
         return semanaLista[semanaNmero]        
    }
