@@ -14,27 +14,27 @@
 }
 
 .body_1{
-    grid-area: maurindo;
+    grid-area: body_1;
 }
 
 .body_2{
-    grid-area: elaine;
+    grid-area: body_2;
 }
 
 .body_3{
-    grid-area: anthony;
+    grid-area: body_3;
 }
 
 .body_4{
-    grid-area: caio;
+    grid-area: body_4;
 }
 
 .body_5{
-    grid-area: derick;
+    grid-area: body_5;
 }
 
 .body_6{
-    grid-area: catarina;
+    grid-area: body_6;
 }
 
 .headerBox{
@@ -53,12 +53,12 @@
     grid-template-rows:80px 100px 100px 100px 100px 100px 100px 100px;
     grid-template-areas: 
         "dados    dados    dados  dados  dados  dados  dados   dados  "
-        "maurindo maurindo elaine elaine elaine elaine anthony anthony"
-        "maurindo maurindo elaine elaine elaine elaine anthony anthony"
-        "maurindo maurindo elaine elaine elaine elaine anthony anthony"
-        "maurindo maurindo caio   caio   derick  derick derick catarina"
-        "maurindo maurindo caio   caio   derick  derick derick catarina"
-        "maurindo maurindo caio   caio   derick  derick derick catarina"
+        "body_1 body_1 body_2 body_2 body_2 body_2 body_3 body_3"
+        "body_1 body_1 body_2 body_2 body_2 body_2 body_3 body_3"
+        "body_1 body_1 body_2 body_2 body_2 body_2 body_3 body_3"
+        "body_1 body_1 body_4 body_4 body_5 body_5 body_5 body_6"
+        "body_1 body_1 body_4 body_4 body_5 body_5 body_5 body_6"
+        "body_1 body_1 body_4 body_4 body_5 body_5 body_5 body_6"
         "footerbox footerbox footerbox    .      .       .      .      .";
     column-gap: 5px;
     row-gap: 5px;
