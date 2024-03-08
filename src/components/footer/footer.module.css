@@ -1,10 +1,61 @@
 .footerBox div {
-    width: 130px;
+    width: 280px;
     height: 130px;
-    border: 1px solid red;
+    border: 1px solid white;
 }
 
 .footerBox{
     display: flex;
-    gap: 1px;
+    gap: 3px;
+}
+
+.img1{
+    background-image: url('../imagens-tv-box/tube.png');
+    background-size: 149%;
+    background-position: center;
+}
+
+.img1:hover{
+    cursor: pointer;
+    transform: perspective(1px) scale3d(1.05, 1.05, 1.05) translateZ(0) !important;
+    border: 3px solid white;
+
+}
+
+.img2{
+    background-image: url('../imagens-tv-box/amazon.jpg');
+    background-size: 149%;
+    background-position: center;
+}
+
+.img2:hover{
+    cursor: pointer;
+    transform: perspective(1px) scale3d(1.05, 1.05, 1.05) translateZ(0) !important;
+    border: 3px solid white;
+
+}
+
+.img3{
+    background-image: url('../imagens-tv-box/net.jpeg');
+    background-size: 149%;
+    background-position: center;
+}
+
+.img3:hover{
+    cursor: pointer;
+    transform: perspective(1px) scale3d(1.05, 1.05, 1.05) translateZ(0) !important;
+    border: 3px solid white;
+}
+
+.img4{
+    background-image: url('../imagens-tv-box/disney.jpg');
+    background-size: 310%;
+    background-position: center;
+}
+
+.img4:hover{
+    cursor: pointer;
+    transform: perspective(1px) scale3d(1.05, 1.05, 1.05) translateZ(0) !important;
+    border: 3px solid white;
+
 }

@@ -3,17 +3,17 @@ import styles from "./footer.module.css"
 function FooterBox(){
     return(
         <footer className={styles.footerBox}>
-            <div>
-                <h3>Item_1</h3>
+            <div className={styles.img1}>
+                
             </div>
-            <div>
-                <h3>Item_2</h3>
+            <div className={styles.img2}>
+                
             </div>
-            <div>
-                <h3>Item_3</h3>
+            <div className={styles.img3}>
+                
             </div>
-            <div>
-                <h3>Item_4</h3>
+            <div className={styles.img4}>
+                
             </div>            
         </footer>
     );
