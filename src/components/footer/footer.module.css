@@ -2,6 +2,7 @@
     width: 280px;
     height: 130px;
     border: 1px solid white;
+    border-radius: 25px;
 }
 
 .footerBox{
