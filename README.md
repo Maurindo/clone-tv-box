@@ -1,3 +1,21 @@
+# Recriando a tela da tv-box melhorando e modernizando sua UI
+<img src ="/img-readme/img/tv-box-1.png">
+
+Foi trocado algumas imagens e outras com uma qualidade melhorada, com movimentação do mouse sobre  cada  imagem  vai acontecer um efeito de zoom que acontece também na tv-box.
+
+<img src ="/img-readme/img/tv-box-2.png">
+
+#
+
+<img src ="/img-readme/img/tv-box-4.png">
+
+Utilizando javascript para capturar em tempo real no computador de quem rodar esse código que exibe horas, minutos, segundos, mês, dia da semana e o dia. 
+Os mesmos dados que são exibidos na tv-box.
+
+<img src ="/img-readme/img/tv-box-3.png">
+
+#
+#
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
