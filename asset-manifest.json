@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/clone-tv-box/static/css/main.92803cde.css",
+    "main.js": "/clone-tv-box/static/js/main.6498f428.js",
+    "static/media/engrenagem-2.png": "/clone-tv-box/static/media/engrenagem-2.f16a1ec4299db25f2890.png",
+    "static/media/incone-3.jpg": "/clone-tv-box/static/media/incone-3.85c29bcee3772c662929.jpg",
+    "static/media/logoMusica2.jpg": "/clone-tv-box/static/media/logoMusica2.5d07fac5529d2c7e9a11.jpg",
+    "static/media/homemFerro.jpg": "/clone-tv-box/static/media/homemFerro.6dc81968a207821f50e7.jpg",
+    "static/media/ice.jpeg": "/clone-tv-box/static/media/ice.34db9cd363f7e88e459d.jpeg",
+    "static/media/casa2.jpg": "/clone-tv-box/static/media/casa2.af1237dbbcff4be89285.jpg",
+    "static/media/balao.jpg": "/clone-tv-box/static/media/balao.c0f870daac118357e1d1.jpg",
+    "static/media/amazon.jpg": "/clone-tv-box/static/media/amazon.1c55f6b0f7934ecd4569.jpg",
+    "index.html": "/clone-tv-box/index.html",
+    "main.92803cde.css.map": "/clone-tv-box/static/css/main.92803cde.css.map",
+    "main.6498f428.js.map": "/clone-tv-box/static/js/main.6498f428.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92803cde.css",
+    "static/js/main.6498f428.js"
+  ]
+}
