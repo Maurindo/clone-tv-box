@@ -1,4 +1,5 @@
 {
+  "homepage": "https://maurindo.github.io/clone-tv-box",
   "name": "menu-tv-box",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +13,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {    
+  "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -37,12 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://maurindo.github.io/clone-tv-box/"
-
+  }
 }
-
-
-  
-
-
